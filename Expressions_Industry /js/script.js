@@ -9,7 +9,17 @@ var posterwidth = prompt("What is the width of your poster?");
 var posterheight = prompt("What is the height of your poster?");
 var frame = prompt("Will you frame your poster?");
 var framealert = alert("Framing your poster will reduce the amount of space to draw on. Press OK if you would like to continue.");
+var framewidth = prompt("What is the width of the Inner part of the frame?");
+var frameheight = prompt("What is the height of the innter part of the frame?");
 
 //Calculatating Space to draw on:
 var PosterArea = posterwidth * posterheight;
-var 
+var FrameArea = framewidth * frameheight;
+var PosterSpaceNotUsed = PosterArea - FrameArea; 
+var PosterAreaLeft = PosterArea - PosterSpaceNotUsed;
+
+
+
+
+
+
