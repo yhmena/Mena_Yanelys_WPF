@@ -13,9 +13,9 @@ var frameheight = prompt("What is the height of the inner part of the frame?"); 
 
 //Calculatating Space to draw on:
 var PosterArea = posterwidth * posterheight; //Here I am calculating the Poster Area by multiplying WxH of Poster
-var FrameArea = framewidth * frameheight;
-var PosterSpaceNotUsed = PosterArea - FrameArea; 
-var PosterAreaLeft = PosterArea - PosterSpaceNotUsed;
+var FrameArea = framewidth * frameheight; //Here I am calculating the area of the poster that will be actually seen after putting it in a frame. I do this by just multiplying HxW of inner frame.
+var PosterSpaceNotUsed = PosterArea - FrameArea; //This is the area of the poster that will be covered up by the frame
+var PosterAreaLeft = PosterArea - PosterSpaceNotUsed; // This is to check that FrameArea is accurate by subtracting the PosterSpaceNotUsed from the original PosterArea
 
 //This is so that the user can see their results.
 alert("Originally, you had " + PosterArea + " inches of poster space.  If you add a frame you will have " + FrameArea + " inches of poster space to design on. By adding the frame you lost a total of " + PosterSpaceNotUsed + " inches of poster space.");
