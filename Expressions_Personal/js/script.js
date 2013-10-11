@@ -22,8 +22,9 @@ var months = prompt("How many months do you have to completely read this book?")
 var resultsdays = pages / days;
 var resultsmonths = pages / months;
 
-
-
+//Results shown to user
+alert("To read your entire book of " + pages + " page(s) in " + days + " days," + " you must read " + resultsdays + " page(s) per day. \n"  +
+"To read your entire book in " + months + " months, you must read "  + resultsmonths + " page(s) per month.");
 
  //Print out the results using console.log
 console.log("To read your entire book of " + pages + " page(s) in " + days + " days," + " you must read " + resultsdays + " page(s) per day. \n"  +
