@@ -5,9 +5,11 @@
 
 alert("Hello There! Let's calculate your Monthly and Yearly Finances report!"); //Welcoming the user to the page and preparing them for the monthly expenses calculation
 
-var MonthlyIncome = prompt("What is your monthly income?"); //Storing monthly income
-var rent = prompt("How much do you pay in rent?"); //Storing Rent Total
-var bills = prompt("What is the estimated total cost of other expenses per month?"); //Storing other monthly Expenses
+var MonthlyIncome = parseInt(prompt("What is your monthly income?")); //Storing monthly income 
+var rent = parseInt(prompt("How much do you pay in rent?")); //Storing Rent Total
+var bills = parseInt(prompt("What is the estimated total cost of other expenses per month?")); //Storing other monthly Expenses
+//I used parseInt to make sure that the users input came back as a number, not a string. Error fixed!
+
 
 //Calculating remaining funds
 
