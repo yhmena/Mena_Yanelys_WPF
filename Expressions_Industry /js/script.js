@@ -1,6 +1,6 @@
 // Yanelys Mena
 // 10-09-2013
-// Expressions Worksheet
+// Expressions: Industry - 
 
 //Calculate the number of slices Sparky gets to eat.
 
