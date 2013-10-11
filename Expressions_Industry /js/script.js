@@ -20,6 +20,7 @@ var PosterAreaLeft = PosterArea - PosterSpaceNotUsed; // This is to check that F
 //This is so that the user can see their results.
 alert("Originally, you had " + PosterArea + " inches of poster space.  If you add a frame you will have " + FrameArea + " inches of poster space to design on. By adding the frame you lost a total of " + PosterSpaceNotUsed + " inches of poster space.");
 
+//Printing the results in the console for developer to view
 console.log("Originally, you had " + PosterArea + " inches of poster space.  If you add a frame you will have " + FrameArea + " inches of poster space to design on. By adding the frame you lost a total of " + PosterSpaceNotUsed + " inches of poster space.");
 
 
