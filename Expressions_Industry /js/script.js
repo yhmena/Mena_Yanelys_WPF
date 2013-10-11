@@ -1,21 +1,11 @@
 // Yanelys Mena
-// 10-09-2013
+// 10-10-2013
 // Expressions: Industry - 
 
-//Calculate the number of slices Sparky gets to eat.
+//Calculate how many assignments to balance
 
-//Declaring the Variables: # of slices per pizza, # of People, and # of Pizzas ordered
-var numSlices = 8;
-var numPeople = 25
-var numPizzas = 10;
-
-//Calculating how many exact slices of pizza each person will eat:
-//Result is 3.2
-var results = numSlices * numPizzas / numPeople
-
-//Since each person can eat only whole pizzas, the remaining will be for Sparky
-//Calculating Remainder of pizzas for Sparky
-var remainder = numSlices * numPizzas % numPeople
-
- //Print out the results using console.log
-console.log("Sparky got " + remainder + " slices of pizza.");
+//Balancing Average In my current job there are 
+var posterwidth = prompt("What is the width of your poster?");
+var posterheight = prompt("What is the height of your poster?");
+var frame = prompt("Will you frame your poster?");
+var framealert = alert("Framing your poster will reduce the amount of space to draw on. Press OK if you would like to continue.");
