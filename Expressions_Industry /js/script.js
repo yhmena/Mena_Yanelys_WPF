@@ -10,11 +10,15 @@ var posterheight = prompt("What is the height of your poster?");
 var framewidth = prompt("What is the width of the inner part of the frame?");
 var frameheight = prompt("What is the height of the inner part of the frame?");
 
+
 //Calculatating Space to draw on:
 var PosterArea = posterwidth * posterheight;
 var FrameArea = framewidth * frameheight;
 var PosterSpaceNotUsed = PosterArea - FrameArea; 
 var PosterAreaLeft = PosterArea - PosterSpaceNotUsed;
+
+//This is so that the user can see their results.
+alert("Originally, you had " + PosterArea + " inches of poster space.  If you add a frame you will have " + FrameArea + " inches of poster space to design on. By adding the frame you lost a total of " + PosterSpaceNotUsed + " inches of poster space.");
 
 console.log("Originally, you had " + PosterArea + " inches of poster space.  If you add a frame you will have " + FrameArea + " inches of poster space to design on. By adding the frame you lost a total of " + PosterSpaceNotUsed + " inches of poster space.");
 
