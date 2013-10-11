@@ -5,14 +5,14 @@
 //My main function at work is to support a Production Application. My boss has given me a project to work on. I must create a poster describing the 5 step Process that takes place. I need to fit all the information in a limited poster space. I also need to frame the poster, which decreases the poster space for me to design on. 
 
 //Declaring and Assigning Variables
-var posterwidth = prompt("What is the width of your poster?");
-var posterheight = prompt("What is the height of your poster?");
-var framewidth = prompt("What is the width of the inner part of the frame?");
-var frameheight = prompt("What is the height of the inner part of the frame?");
+var posterwidth = prompt("What is the width of your poster?"); //Declaring and Assigning the width of the Poster
+var posterheight = prompt("What is the height of your poster?"); //Declaring and Assigning the height of the poster
+var framewidth = prompt("What is the width of the inner part of the frame?"); //Declaring and Assigning the inner part of the frame
+var frameheight = prompt("What is the height of the inner part of the frame?"); //Declaring and Assigning the inner part of the frames height
 
 
 //Calculatating Space to draw on:
-var PosterArea = posterwidth * posterheight;
+var PosterArea = posterwidth * posterheight; //Here I am calculating the Poster Area by multiplying WxH of Poster
 var FrameArea = framewidth * frameheight;
 var PosterSpaceNotUsed = PosterArea - FrameArea; 
 var PosterAreaLeft = PosterArea - PosterSpaceNotUsed;
