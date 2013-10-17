@@ -19,4 +19,6 @@ if(kidHeight > minHeight){
 	console.log("Sorry Kid, you've got some growing to do first.");
 }
 
-	
+//notes
+//Operators compare 2 things and come up with a true//false result
+//Equality ==, Strict Equality ===, Inequality !=;
