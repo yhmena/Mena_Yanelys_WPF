@@ -1,28 +1,18 @@
-//Ternaary Operators
+//Yanelys Mena
+//Conditionals 
+//October 17, 2013
 
-// var gpa = 48;
+//Diet AID 
+//Establishing Variables and assigning values
+//Maximum amount of calories user is planning to consume
+var maxCal = prompt("Enter your daily maximum amount of calories:");
+//Calories user has consumed at this point in the day
+var actualCal = prompt("Enter the amount of calories you have consumed thus far:");
+//Calories left to consume
+var leftoverCal = maxCal - actualCal
+var exceededCal = leftoverCal - maxCal
 
-//if gpa is over the min 2.0 score, the student can graduate
-/* if(gpa > 2.0){
-	console.log("You can graduate!");
-	
-}else{
-	console.log("GPA is too low!");
-} */
-
-//*(gpa > 2.0) ? console.log("You can Graduate!") : console.log("Gpa too low!"); *//
-
-var age = 11;
-var book;
-
-// if(age <10){
-//	book = "Green Eggs and Ham"
-//}else{
-//	book = "Time Machine";
-//}
-//console.log(book); 
-
-book = (age < 10) ? "Green Eggas and Ham" : "The Time Machine";
-console.log(book);
-
+(leftoverCal <= maxCal) ? 
+console.log("You have " + leftoverCal + " calories left to consume today.") + alert("You have " + leftoverCal + "calories left to consume today.") : 
+console.log("You have exceeded your maximum amount of calories by" + exceededCal + ".") + alert("You have exceeded your maximum amount of calories by" + exceededCal + ".");
 
