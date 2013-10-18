@@ -5,9 +5,14 @@
 //Diet AID 
 //Establishing Variables and assigning values
 //Maximum amount of calories user is planning to consume
-var maxCal = prompt("Enter your daily maximum amount of calories:");
+var string1 = prompt("Enter your daily maximum amount of calories:");
+//using parseInt to conver string into Integer
+var maxCal = parseInt(string1);
 //Calories user has consumed at this point in the day
-var actualCal = prompt("Enter the amount of calories you have consumed thus far:");
+var string2 = prompt("Enter the amount of calories you have consumed thus far:");
+//using parseInt to conver string into Integer
+actualCal = parseInt(string2);
+
 //Calories left to consume
 var leftoverCal = maxCal - actualCal
 var exceededCal = leftoverCal - maxCal
