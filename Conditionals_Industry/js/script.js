@@ -9,20 +9,23 @@
 
 alert("Welcome to Homework Aid! We can help you figure out how many hours you have left throughout the week to actually do your assignments!");
 
-var string0 = prompt("Enter the number of Assignment Hours for one Full Sail Course Week:");
-var FSUHours = parseInt(string0);
-var string1 = prompt("How many hours do you work daily?");
-var workHours = parseInt(string1);
-var string2 = prompt("How many hours does it take to commute to and from work daily?");
-var commute = parseInt(string2);
-var string3 = prompt("Enter the amount of hours of sleep you need to function:");
-var sleep = parseInt(string3);
+var string1 = prompt("Enter the number of Assignment Hours for one Full Sail Course Week:");
+FSUHours = parseInt(string1);
+var string2 = prompt("How many hours do you work daily?");
+workHours = parseInt(string2);
+var string3 = prompt("How many hours does it take to commute to and from work daily?");
+commute = parseInt(string3);
+var string4 = prompt("How many hours do you need to sleep?");
+var sleep = parseInt(string4);
 
+//
+console.log(FSUHours - (workHours + commute + sleep));
+
+ 
 //Calculate Total Hours taken up by work, commute and sleep
-var totalHours = workHours + commute + sleep
 
 //Numbers used for conditional expressions are: 24 hours per day and 7 days a week
 
 //Does your spare time exceed the left over than your assigned HW time?
-(FSUHours > totalHours) ? console.log("You do not have time for homework") : console.log("You do have time for homework");
+//(FSUHours > totalHours) ? console.log("You do not have time for homework") : console.log("You do have time for homework");
 
