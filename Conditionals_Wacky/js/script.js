@@ -1,4 +1,6 @@
-//Ternaary Operators
+//Yanelys Mena
+//Oct 17, 2013
+//Conditionals: Wacky
 
 // var gpa = 48;
 
