@@ -16,7 +16,7 @@ actualCal = parseInt(string2);
 
 //calculations
 var leftoverCal = maxCal - actualCal
-var exceededCal = leftoverCal - maxCal
+var exceededCal = actualCal - maxCal
 
 
 console.log(exceededCal);
