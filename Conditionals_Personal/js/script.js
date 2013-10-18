@@ -18,7 +18,13 @@ actualCal = parseInt(string2);
 var leftoverCal = maxCal - actualCal
 var exceededCal = leftoverCal - exceededCal
 
-(leftoverCal <= maxCal) ? 
-console.log("You have " + leftoverCal + " calories left to consume today.") + alert("You have " + leftoverCal + "calories left to consume today.") : 
-console.log("You have exceeded your maximum amount of calories by" + exceededCal + ".") + alert("You have exceeded your maximum amount of calories by" + exceededCal + ".");
+
+console.log(leftoverCal);
+//Evaluating the amount of calories left to consume and/or exceeded
+
+
+
+//(leftoverCal) ? 
+//console.log("You have " + leftoverCal + " calories left to consume today.") + alert("You have " + leftoverCal + "calories left to consume today.") : 
+//console.log("You have exceeded your maximum amount of calories by" + exceededCal + ".") + alert("You have exceeded your maximum amount of calories by" + exceededCal + ".");
 
