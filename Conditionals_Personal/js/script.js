@@ -16,10 +16,10 @@ actualCal = parseInt(string2);
 
 //calculations
 var leftoverCal = maxCal - actualCal
-var exceededCal = leftoverCal - exceededCal
+var exceededCal = leftoverCal - maxCal
 
 
-console.log(leftoverCal);
+console.log(exceededCal);
 //Evaluating the amount of calories left to consume and/or exceeded
 
 
