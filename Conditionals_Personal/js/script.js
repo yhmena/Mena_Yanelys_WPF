@@ -6,16 +6,17 @@
 //Establishing Variables and assigning values
 //Maximum amount of calories user is planning to consume
 var string1 = prompt("Enter your daily maximum amount of calories:");
-//using parseInt to conver string into Integer
-var maxCal = parseInt(string1);
 //Calories user has consumed at this point in the day
 var string2 = prompt("Enter the amount of calories you have consumed thus far:");
+
+//using parseInt to conver string into Integer
+var maxCal = parseInt(string1);
 //using parseInt to conver string into Integer
 actualCal = parseInt(string2);
 
-//Calories left to consume
+//calculations
 var leftoverCal = maxCal - actualCal
-var exceededCal = leftoverCal - maxCal
+var exceededCal = leftoverCal - exceededCal
 
 (leftoverCal <= maxCal) ? 
 console.log("You have " + leftoverCal + " calories left to consume today.") + alert("You have " + leftoverCal + "calories left to consume today.") : 
