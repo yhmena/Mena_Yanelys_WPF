@@ -1,30 +1,16 @@
 //Yanelys Mena
-//Oct 17, 2013
-//Conditionals: Wacky
+//Conditionals  Wacky
+//October 17, 2013
 
-// var gpa = 48;
-
-//if gpa is over the min 2.0 score, the student can graduate
-/* if(gpa > 2.0){
-	console.log("You can graduate!");
-	
+//Let my code find your Identity through Age
+var Age = prompt("What is your age?");
+if(Age >= 13 && Age <= 19) {
+	console.log("You are a teenage between the ages of 13 and 19.");
+}
+else if(Age >= 55) {
+	console.log("You are a Senior Citizen.");
 }else{
-	console.log("GPA is too low!");
-} */
-
-//*(gpa > 2.0) ? console.log("You can Graduate!") : console.log("Gpa too low!"); *//
-
-var age = 11;
-var book;
-
-// if(age <10){
-//	book = "Green Eggs and Ham"
-//}else{
-//	book = "Time Machine";
-//}
-//console.log(book); 
-
-book = (age < 10) ? "Green Eggas and Ham" : "The Time Machine";
-console.log(book);
+	console.log("You are somewhere between your earlys 20's to early 50's or a small child under 13 years of age.");
+}
 
 
