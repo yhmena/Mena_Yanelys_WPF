@@ -14,17 +14,14 @@ var maxCal = parseInt(string1);
 //using parseInt to conver string into Integer
 actualCal = parseInt(string2);
 
-//calculations
+//calculations for Leftover Calories and Exceeded Calories (if applicable)
 var leftoverCal = maxCal - actualCal
 var exceededCal = actualCal - maxCal
 
+console.log(leftoverCal + exceededCal);
 
-console.log(exceededCal);
 //Evaluating the amount of calories left to consume and/or exceeded
-
-
-
-//(leftoverCal) ? 
-//console.log("You have " + leftoverCal + " calories left to consume today.") + alert("You have " + leftoverCal + "calories left to consume today.") : 
-//console.log("You have exceeded your maximum amount of calories by" + exceededCal + ".") + alert("You have exceeded your maximum amount of calories by" + exceededCal + ".");
+(maxCal > leftoverCal) ? 
+console.log("You have " + leftoverCal + " calories left to consume today.") + alert("You have " + leftoverCal + "calories left to consume today.") : 
+console.log("You have exceeded your maximum amount of calories by" + exceededCal + ".") + alert("You have exceeded your maximum amount of calories by" + exceededCal + ".");
 
