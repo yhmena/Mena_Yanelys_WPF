@@ -13,3 +13,4 @@ function Calc(radius){ //parameter is established
 	return circumference; // Return so that function can be printed in the console
 }
 console.log("The circumference of the circle is " + total + ".");
+//Printing out to the console
