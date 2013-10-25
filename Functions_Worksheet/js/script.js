@@ -12,8 +12,10 @@ function Calc(radius){ //parameter is established
 	var circumference = 2 * 3.14 * radius; //This is the formula that will be used to calculate the circumference
 	return circumference; // Return so that function can be printed in the console
 }
-console.log("The circumference of the circle is " + total + ".");
+console.log("CIRCUMFERENCE \n\n\nThe circumference of the circle is " + total + ".");
 //Printing out to the console
+
+
 
 
 //STUNG! 
@@ -29,4 +31,4 @@ var stingstotal =8.666666667 * weight; //This is the formula to calculate the to
 return stingstotal; //last part of the function is to return stongstotal so that I can print it to the console
 }
 
-console.log("It takes " + total + " bee stings to kill this animal."); //this is where the information that is inside the function is printing out
+console.log("\n\n\n\nSTUNG! \n \n\n"   +"It takes " + total + " bee stings to kill this animal."); //this is where the information that is inside the function is printing out
