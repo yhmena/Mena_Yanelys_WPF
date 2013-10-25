@@ -29,4 +29,4 @@ var stingstotal =8.666666667 * weight; //This is the formula to calculate the to
 return stingstotal; //last part of the function is to return stongstotal so that I can print it to the console
 }
 
-console.log();
+console.log("It takes " + total + " bee stings to kill this animal.");
