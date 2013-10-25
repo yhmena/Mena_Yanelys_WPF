@@ -1,5 +1,5 @@
 //Yanelys Mena
-//Functions Expressions
+//Functions Worksheet
 //October 24, 2013
 
 
@@ -14,3 +14,11 @@ function Calc(radius){ //parameter is established
 }
 console.log("The circumference of the circle is " + total + ".");
 //Printing out to the console
+
+
+//STUNG! 
+//It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
+
+
+
+var total = Stings(10); //establishing weight as argument and variable for later return
