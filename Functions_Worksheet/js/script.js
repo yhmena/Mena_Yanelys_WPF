@@ -8,7 +8,7 @@
 
 var total = Calc(5); //Establishing variable so for Return
 
-function Calc(radius){
+function Calc(radius){ //parameter is established
 	var circumference = 2 * 3.14 * radius;
 	return circumference;
 }
