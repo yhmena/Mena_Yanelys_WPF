@@ -23,7 +23,7 @@ console.log("The circumference of the circle is " + total + ".");
 
 var total = Stings(10); //establishing weight as argument and variable for later return
 
-function Stings(weight){ 
+function Stings(weight){  //The function is calles Stings and the parameter is the weight of the animal (which has been establish above)
 
 var stingstotal =8.666666667 * weight; 
 return stingstotal;
