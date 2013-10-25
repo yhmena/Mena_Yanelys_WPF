@@ -7,3 +7,5 @@
 var expenses = prompt("Enter your departments staple monthly expenses:"); //User inputs monthly expenses
 var budget = prompt("What is your departments monthly budget?"); //user inputs monthly budget 
 var priceofTV = prompt("Enter the cost of the item:"); //user inputs cost of item
+
+var leftover = budget - expenses //This variable will calculate the leftover money that can be used after all expenses have been paid.
