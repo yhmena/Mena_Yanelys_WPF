@@ -28,3 +28,5 @@ function Stings(weight){  //The function is calles Stings and the parameter is t
 var stingstotal =8.666666667 * weight; //This is the formula to calculate the total number of stings per pound
 return stingstotal; //last part of the function is to return stongstotal so that I can print it to the console
 }
+
+console.log();
