@@ -25,6 +25,6 @@ var total = Stings(10); //establishing weight as argument and variable for later
 
 function Stings(weight){  //The function is calles Stings and the parameter is the weight of the animal (which has been establish above)
 
-var stingstotal =8.666666667 * weight; 
+var stingstotal =8.666666667 * weight; //This is the formula to calculate the total number of stings per pound
 return stingstotal;
 }
