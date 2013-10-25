@@ -12,3 +12,8 @@ var expected = prompt("How many calories are you expecting to burn?") //Grabing 
 var miles = prompt("Enter the total number of miles you will run:"); //grabing information input by user
 
 var weight = prompt("Enter your current weight in pounds:"); //grabing information input by user
+
+var calccalories = .75 * miles * weight //calculating calories burned
+
+var caloriesBurned //declaring the variable that I will use in my ternary conditional statement below
+
