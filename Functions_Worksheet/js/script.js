@@ -3,12 +3,13 @@
 //October 24, 2013
 
 
+//Calculate the circumference of a circle
+//FORMULA >> C = 2 * Pie * radius
 
-//
-var total = circumference(30, 20);
+var total = Calc(5);
 
-function circumference(radius){
-	var area = w * h;
+function Calc(radius){
+	var circumference = 2 * 3.14 * radius;
 	return circumference;
 }
 console.log("The circumference of the circle is " + total + ".");
